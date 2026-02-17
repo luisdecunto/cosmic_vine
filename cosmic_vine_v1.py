@@ -28,6 +28,7 @@
 
 import numpy as np
 import random
+rng = np.random.default_rng(42)
 
 ### INPUT PARAMETERS
 side_length = 1.0                           # Side length of the cubes
@@ -232,3 +233,6 @@ if __name__ == "__main__":
         c1 = cube_new.local_csys[:3, 3]
 
 export_obj(vine, fname)
+print(f"Generated vine with {n_gen} cubes")
+print(f"Saved as {fname}")
+
