@@ -10,7 +10,7 @@ between skeleton segments (1-D lines between centers of the cubes)
 and set up a threshold for that distance. It would treat the cubes as
 spheres but is a possible approximation.
 
-Self-intersection detection (sphere approximation):
+Self-intersection detection pseudo-code (sphere approximation):
 
 ```
 for each candidate cube:
