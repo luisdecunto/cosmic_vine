@@ -4,7 +4,7 @@ The file creates a "vine" modeled as a cube sequence.
 Each new cube originates from the face of the previous one,
 with a random rotation.
 
-This version DOES NOT check for self intersection.
+V1 DOES NOT check for self intersection.
 One way of implementing it would be to check the minimum distance
 between skeleton segments (1-D lines between centers of the cubes)
 and set up a threshold for that distance. It would treat the cubes as
